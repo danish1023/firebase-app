@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "821661966441",
+    "firebase_url": "https://ts-firebase-app.firebaseio.com",
+    "project_id": "ts-firebase-app",
+    "storage_bucket": "ts-firebase-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821661966441:android:9f08617efe82751e",
+        "android_client_info": {
+          "package_name": "com.phonegap.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821661966441-g1b9nvvf7istlsqcti4gonlrvgs2r38t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ub-ZnovqhrSyFnvWV9CEaieMZhq1lj4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

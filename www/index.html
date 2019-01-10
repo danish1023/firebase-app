@@ -13,8 +13,11 @@
         document.addEventListener("deviceready", onDeviceReady, false);
         function onDeviceReady() {
             console.log('Device is ready');
-            var firebaseThings = window.FirebaseDatabasePlugin.ref('ts-firebase-app');
-            alert(firebaseThings);
+            window.FirebasePlugin.getToken(function (token) {
+                alert(token);
+            }, function (error) {
+                console.error(error);
+            });
         }
     </script>
 </body>
